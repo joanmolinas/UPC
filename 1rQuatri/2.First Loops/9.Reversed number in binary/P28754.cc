@@ -17,6 +17,7 @@ int main() {
         numberString += to_string(number%2);
         number/=2;
     }
+    
 
     cout<<numberString<<endl;
     return 0;
